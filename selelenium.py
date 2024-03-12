@@ -16,3 +16,5 @@ element = driver.find_element(By.ID, "gsce-search-input")
  
 # send keys
 element.send_keys("Arrays")
+
+from selenium.webdriver.support import expected_conditions as EC
